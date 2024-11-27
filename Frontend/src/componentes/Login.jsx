@@ -4,34 +4,25 @@ import '../css/Login.css';
 const Login = () => {
   return (
     <div className="Login">
-        <form action="" className="frm">
-          <div className="encabezado-login">
-          <h1 className="titulo">Login</h1>
-          </div>
+      <h1>lalalal</h1>
+      <div className="opciones">
+        <a href="#">Sign in</a>
+        <a href="#">Sign up</a>
+      </div>
+      <form action="" className='frm'>
+        <div className="input-group">
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        </div>
 
-          <div className="input-groupt">
-            <div className="input-feild">
-              <div className="lala">
-                <label htmlFor="">Usuario</label>
-                <input
-                  type="text"
-                />
-              </div>
-            </div>
-            <div className="input-feild">
-              <div className="lala">
-                <label htmlFor="">Contraseña </label>
-                <input
-                  type="password"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="button">
-            <button>Enviar</button>
-          </div>
-        </form>
+        <div className="mantener">
+          <input type="checkbox" name="" id="" />
+          <label htmlFor="">Remenber password</label>
+        </div>
+        <div className="boton">
+          <input type="submit" value="Login" />
+        </div>
+      </form>
       </div>
   );
 };
