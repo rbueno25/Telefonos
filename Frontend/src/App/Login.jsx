@@ -5,8 +5,9 @@ import { MdOutlinePhoneIphone } from "react-icons/md";
 
 const Login = () => {
   return (
-    <div className="Login">
-      <div className="encabezado">
+    <div className="loginn">
+      <div className="Login">
+      <div className="encabezado-login">
           <h1>
             <MdOutlinePhoneIphone className='icono'/>
             Tecnocel
@@ -40,6 +41,8 @@ const Login = () => {
         <a href="" className='olvidar'>Forgot password?</a>
       </form>
       </div>
+    </div>
+    
   );
 };
 
