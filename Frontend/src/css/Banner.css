@@ -1,0 +1,74 @@
+.container-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+    color: white;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0 1rem black;
+    background-image: url('https://cdn.photoroom.com/v1/assets-cached.jpg?path=backgrounds_v3/black/Photoroom_black_background_extremely_fine_texture_only_black_co_bc8c725e-7ec8-4d6b-b024-98be7544d757.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.banner-text{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.banner-button {
+    padding: 10px;
+    width: 10vw;
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    background-color: #ff8c00;
+}
+
+.banner-image {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../assets/Telefonos/s24.png') ; 
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

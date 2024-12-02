@@ -3,12 +3,12 @@
 .barra {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     align-items: center;
-    background-color: #2E2F33 ;
-    color: #D4D4D5;
+    background-color: #FFFFFF ;
+    color: #000;
 }
 
 .encabezado-nav {
@@ -20,6 +20,7 @@
 }
 
 .titulo{
+    font-weight: 500;
     padding: 10px;
 }
 
@@ -42,16 +43,15 @@
     border-bottom: 3px solid transparent;
 }
 
-.nav-list ul li:hover {
-    border-bottom: 3px solid #3498DB;
-}
-
-
 
 .nav-list ul li a {
     text-decoration: none;
-    color: #D4D4D5;
+    color: #000;
     font-family: 'Poppins', sans-serif;
+}
+
+.nav-list ul li a:hover {
+    color: #868686;
 }
 
 .barra-busqueda {
@@ -69,7 +69,8 @@
 .barrita input {
     width: 20vw;
     padding: 10px;
-    border: none;
+    border: 1px solid #868686;
+    border-right: none  ;
     border-radius: 5px 0px 0px 5px;
     outline: none;
 }
@@ -78,6 +79,7 @@
     cursor: pointer;
     border: none;
     border-radius: 0px 5px 5px 0;
+    background-color: #d1d1d1;
 }
 
 .botones {
@@ -89,4 +91,22 @@
 
 .iconoL{
     padding: 10px;
+}
+
+.user{
+    display: flex;
+    padding: 10PX;
+    background-color: transparent ;
+    border: 1px solid #000;
+    outline: none;
+    color: #000;
+    border-radius: 10px;
+}
+.user:hover{
+    background-color: #D4D4D5;
+    cursor: pointer;
+    color: #2E2F33;
+}
+.u{
+    margin-right: 10px;
 }

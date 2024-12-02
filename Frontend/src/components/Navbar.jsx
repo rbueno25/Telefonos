@@ -15,9 +15,9 @@ const Navbar = () => {
         </div>
         <div className="nav-list">
             <ul>
-                <li><a href="#">Hola</a></li>
-                <li><a href="#">Hola</a></li>
-                <li><a href="#">Hola</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Acerca de</a></li>
                 <li><a href="#">Hola</a></li>
             </ul>
         </div>
@@ -29,16 +29,16 @@ const Navbar = () => {
         </div>
         <div className="botones">
             <div className="iconoL">
-                <FaFacebook />
+                <FaFacebook className='facebook'/>
             </div>
             <div className="iconoL">
-                <FaInstagram />
+                <FaInstagram className='instagram'/>
             </div>
             <div className="iconoL">
-                <FaUser />
-            </div>
-            <div className="iconoL">
-                <FaFacebook />
+                <button className='user'>
+                    <FaUser className='u'/>
+                    Iniciar Sesión
+                </button>
             </div>
         </div>
     </div>
