@@ -1,0 +1,59 @@
+
+.card {
+    width: 20vw;
+    height: 70vh;
+    background-color: #2E2F33;
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que el contenido no se salga del contenedor */
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
+}
+
+.card-image {
+    width: 100%;
+    height: 70%; /* Ajusta la altura según sea necesario */
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    height: 30%; /* Ajusta la altura según sea necesario */
+    padding: 10px; /* Añadir padding para espacio interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
+    color: #fff;
+}
+
+.card-content h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 0.8rem;
+}
+
+.card-button button {
+    padding: 10px 10px;
+    width: 5vw;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #3498DB;
+    border: none;
+}
+
+.card-button button:hover {
+    background-color: #2980B9;
+}
