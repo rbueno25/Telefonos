@@ -9,6 +9,8 @@
     color: #D4D4D5;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .encabezado-login {
